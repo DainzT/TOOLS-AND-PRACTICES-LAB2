@@ -3,6 +3,11 @@ def says(say: str) -> str:
 
 print(says("Main"))
 
+def function2(func) -> str:
+    return func
+
+print(says("function 2"))
+
 def function1(func: str) -> str:
     return func
 
