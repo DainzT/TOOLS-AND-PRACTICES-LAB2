@@ -1,4 +1,4 @@
-def says(say: int) -> int:
+def says(say: str) -> str:
     return say
 
 print(says("Main"))
